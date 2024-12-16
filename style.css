@@ -1,0 +1,91 @@
+html, body{
+	height:100%;
+	font-family:Arial;
+	margin:0 auto;
+}
+body{
+	text-align:center;
+	min-height:100%;
+}
+.container{
+  display:flex;
+}
+.container *{
+  flex:1;
+}
+a{
+  text-decoration:none;
+}
+#banner{
+  padding:5px;
+  text-align:center;
+  background-color:lightgreen;
+}
+nav a{
+	background-color:black;
+	flex:1;
+	text-align:center;
+	padding:10px;
+}
+nav a:hover{
+  background-color:rgb(100,100,100);
+  transition:0.5s;
+}
+.main{
+	border:black 2px solid;
+	padding:10px;
+	background-color:rgba(173,216,230,0.8);
+}
+#footer{
+  background-color:lightgreen;
+  color:white;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+}
+div{
+	display:flex;
+	flex:1;
+	font-size:16px;
+	align-items:center;
+	justify-content:center;
+	padding:20px;
+	border-radius:10px;
+}
+#image{
+	background-repeat:no-repeat
+}
+#links{
+	color:lightgreen;
+}
+#head{
+	padding:0px;
+}
+.hover{
+	font-size:10px;
+	transition:0.5s;
+}
+.hover:hover{
+	font-size:15px;
+	transition:0.5s;
+}
+.topics{
+  padding: 30px;
+  margin-bottom: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+#food img{
+	filter:grayscale(50%);
+}
+#food img:hover{
+	filter:none;
+}
+div{
+transition:2s;
+visibility:visible;
+}
